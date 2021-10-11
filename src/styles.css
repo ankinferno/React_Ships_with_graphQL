@@ -1,0 +1,104 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+body {
+  background-color: #00171f;
+  color: #3da4af;
+}
+
+input {
+  background-color: #00171f;
+  color: #3da4af;
+  border-radius: 6px;
+  border: 2px solid #0abab5;
+  margin: 20px;
+  width: 60%;
+}
+
+.ship p {
+  width: 100%;
+}
+p[name="shipname"] {
+  text-align: left;
+}
+p[name="port"] {
+  text-align: right;
+}
+
+.spacex {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  height: 70px;
+  width: 170px;
+  margin: auto;
+}
+
+input {
+  background-color: #00171f;
+  color: #3da4af;
+  border-radius: 6px;
+  border: 2px solid #0abab5;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.shipList {
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  width: 80%;
+  height: 30%;
+}
+
+body {
+  border-radius: 6px;
+  border: 2px solid #0abab5;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.shipList {
+  width: 60%;
+  margin: auto;
+}
+
+.shipText {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .spacex {
+    height: 70px;
+    width: 170px;
+    margin: auto;
+    align-self: center;
+    margin: 1% 30% 2% 30%;
+    display: block;
+    position: relative;
+  }
+  .shipText {
+    display: unset;
+  }
+  p[name="shipname"] {
+    display: block;
+    text-align: center;
+  }
+  p[name="port"] {
+    display: block;
+    text-align: center;
+    margin-bottom: 15%;
+  }
+}
